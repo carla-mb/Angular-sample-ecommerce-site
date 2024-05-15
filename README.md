@@ -1,27 +1,21 @@
-# Ecommerce
+# Angular Ecommerce Simple Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
-## Development server
+## Overview
+Angular Simple Ecommerce is a basic web application that displays a list of items available for sale. Users can add items to their cart by clicking the "+" button, and remove them by clicking the "-" button. Items that are not available for sale are displayed in grey, while items with available stock have interactive buttons for adding and removing them from the cart. For the purpose of the demo, out of the three items, one has no stock.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- Display a list of items available for sale.
+- Increment and decrement the quantity of items in the cart.
+- Disable the decrement button when the quantity of an item in the cart is 0.
+- Grey out price of items that are not available for sale.
 
-## Code scaffolding
+## Technologies Used
+- Angular
+- TS
+- HTML
+- CSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Live Demo
+Check out the live demo of this simple Angular project [here](https://angular-ecommerce-simple.netlify.app).
