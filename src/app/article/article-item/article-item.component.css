@@ -1,0 +1,48 @@
+/* Article styles */
+.article-container {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block; 
+    align-items: center;
+    height: 400px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #1367a2;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+  
+button[disabled] {
+    background-color: rgb(186, 186, 186);
+    cursor: default;
+}
+
+/* Container style to show if there's stock */
+.on-sale {
+    background-color: rgb(143, 218, 105);
+}
+
+/* Price style if there's no stock */
+.not-for-sale {
+    color: grey;
+}
